@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="bottom|right"
+    android:orientation="horizontal"
+    android:layout_marginRight="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@mipmap/profile"
+        android:layout_marginRight="10dp"
+        android:onClick="goProfile"
+       />
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@mipmap/friends"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.05"
+        android:onClick="goAddAccount"/>
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@mipmap/collection"
+        android:layout_marginRight="10dp"
+        />
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@mipmap/wantlist"
+        android:layout_marginRight="10dp"
+       />
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@mipmap/exit_logout"
+        android:layout_marginRight="10dp"
+        />
+
+</LinearLayout>

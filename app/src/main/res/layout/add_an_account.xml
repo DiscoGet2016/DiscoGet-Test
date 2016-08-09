@@ -179,4 +179,7 @@
 
     </LinearLayout>
 
+    <include android:layout_width="fill_parent" layout="@layout/mini_toolbar" />
+
+
 </LinearLayout>

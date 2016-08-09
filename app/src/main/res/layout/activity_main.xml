@@ -116,38 +116,8 @@
 
 
     </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginRight="5dp"
-        android:gravity="bottom|right">
+
+    <include android:layout_width="fill_parent" layout="@layout/mini_toolbar" />
 
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/dog_icon"
-            android:layout_marginRight="5dp"
-            android:onClick="doDog4"/>
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/dog_icon"
-            android:layout_marginRight="5dp"
-            android:onClick="doDog3"/>
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/dog_icon"
-            android:layout_marginRight="5dp"
-            android:onClick="doDog2"/>
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/dog_icon"
-            android:layout_marginRight="5dp"
-            android:onClick="doDog1"/>
-
-    </LinearLayout>
 </RelativeLayout>
